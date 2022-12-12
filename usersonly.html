@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magical Jobs </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="elle">
+            <div class="cat">
+                <img src="toplogo.png" style="width:150px;height:150px;">
+                <ul>
+                    
+
+                    <li> <a href="#">Developers</a></li>
+                    <li> <a href="#">FAQ</a></li>
+                    <li> <a href="index.html">Sign out</a></li>
+                </ul>
+                <div class="cat-icons">
+                    <img src="about.png">
+                    <img src="contact.png"> 
+                    
+                <img src="home.png"> 
+
+                </div>
+            </div>  
+        
+            <div class="negneg">
+                <form class="boxes1">
+                 <h2> Online English Tutor</h2>
+                 <h3>part time</h3>
+                 _____________
+                 <h4>20,000</h4>
+                 --- <br>
+                 If you’re fluent in English and enjoy conversing with people from various cultures, try your hand at teaching English...
+                <a href="#" class="btn">read more</a></form>
+                <form class="boxes2">
+                    <h2> Social Media Manager</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>40,000</h4>
+                    --- <br>
+                    If you’re a prolific social media user and know how to keep an internet audience interested, you can profit from...
+
+                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes3">
+                    <h2> Customer Service Representative</h2>
+                    <h3>part time/full time</h3>
+                    _____________
+                    <h4>20,000-40,000</h4>
+                    --- <br>
+                    Job Responsibilities:
+                    • Answering inquiries and complaints via phone or e-mail
+                    • Assisting customers...
+                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes4">
+                    <h2>Online Chat Assistant</h2>
+                    <h3>part time</h3>
+                    _____________
+                    <h4>10,000</h4>
+                    --- <br>
+                    As a chat assistant, you will be required to talk to website visitors using an online system. It’s as easy as using...
+                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes5">
+                    <h2> Japanese Translator</h2>
+                    <h3>part time</h3>
+                    _____________
+                    <h4>30,000</h4>
+                    --- <br>
+                    
+If you’re in college and studying japanese or a foreign language, working part-time as an internet...
+                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes6">
+                    <h2> Junior Ui/Ux Designer</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>60,000</h4>
+                    --- <br>
+                    We are looking for a talented UI Designer to create amazing user experiences. The ideal candidate should...
+                    <a href="#" class="btn">read more</a>
+                </form>
+            </div>
+
+            <div class="container">
+                <div class="pagination">
+                   <button class="btnp"> <img src="arrow.png">prev</button>
+                    <ul>
+                    <a href="usersonly.html">    
+                        <li class="link active"  value="1" onclick="activeLink()">1</li></a>
+                    <a href="page2.html">
+                        <li class="link" value="2" onclick="activeLink()">2</li></a>
+                    <a href="page3.html">
+                        <li class="link" value="3" onclick="activeLink()">3</li></a>
+                    <a href="page4.html">
+                        <li class="link" value="4" onclick="activeLink()">4</li></a>
+                    <a href="page5.html">
+                        <li class="link" value="5" onclick="activeLink()">5</li></a>
+                    <a href="page6.html">
+                        <li class="link" value="6" onclick="activeLink()">6</li></a>
+                    </ul>
+                    <button class="btnn" > next<img src="arrow.png"></button>
+                </div>
+            </div>
+
+
+            <script>
+            let link = document.getElementsByClassName("link");
+            let currentValue = 1;
+
+            function activeLink(){
+                for(l of link){
+                    l.classList.remove("active");
+                }
+                event.target.classList.add("active");
+                currentValue = event.target.value;
+            }
+
+           
+            </script>
+
+            <footer id="main-footer" class="grid">
+           
+
+                <h4> 
+                  for webdev finals
+                
+              <p>
+                made by Tiru, David, and Garcia of BSIT WMA 3A (+639506082836)
+              </p>
+            
+              <p>Tarlac State University</p></h3>
+              </footer>  
+    </body>
+</html>

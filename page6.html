@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magical Jobs </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="elle">
+            <div class="cat">
+                <img src="toplogo.png" style="width:150px;height:150px;">
+                <ul>
+                    
+
+                    <li> <a href="#">Developers</a></li>
+                    <li> <a href="#">FAQ</a></li>
+                    <li> <a href="index.html">Sign out</a></li>
+                </ul>
+                <div class="cat-icons">
+                    <img src="about.png">
+                    <img src="contact.png"> <img src="home.png"> 
+
+                </div>
+            </div>  
+        
+            <div class="negneg">
+                <form class="boxes1">
+                 <h2> Web 
+                    <br>Developer</h2>
+                 <h3>full time</h3>
+                 _____________
+                 <h4>50,000</h4>
+                 --- <br>
+                 • Must be a graduate of BS Computer Science, Engineering, or any IT-related course.
+
+                 • Preferably with...            <a href="#" class="btn">read more</a></form>
+                <form class="boxes2">
+                    <h2> H5 Game Web Developer</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>90,000</h4>
+                    --- <br>
+                    1. Responsible for the development and maintenance of the front-end page of game products...
+                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes3">
+                    <h2>Web App Dev (Laravel PHP)</h2>
+                    <h3>part time/full time</h3>
+                    _____________
+                    <h4>40,000-100,000</h4>
+                    --- <br>
+                    You will be part of multiple projects to work on developing web applications. In this role, you and other...
+                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes4">
+                    <h2>Junior Web Developer</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>60,000</h4>
+                    --- <br>
+                    Analyzes, designs, develops, codes, and implements programs in one or more programming languages...<br>                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes5">
+                    <h2> Front-End Web Developer</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>100,000</h4>
+                    --- <br>
+                    
+                    This position is responsible for coding, deploying, and debugging our Django/React web platforms. The focus...                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes6">
+                    <h2> Web <br>Analyst</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>60,000</h4>
+                    --- <br>
+                    This is a hybrid role wherein the successful applicant will act as a Web Analyst and Content Management who...                  <a href="#" class="btn">read more</a>
+                </form>
+            </div>
+
+            <div class="container">
+                <div class="pagination">
+                    <button class="btnp"> <img src="arrow.png">prev</button>
+                    <ul>
+                    <a href="usersonly.html">
+                        <li class="link"  value="1" onclick="activeLink()">1</li></a>
+                    <a href="page2.html">
+                        <li class="link" value="2" onclick="activeLink()">2</li></a>
+                    <a href="page3.html">
+                        <li class="link" value="3" onclick="activeLink()">3</li></a>
+                    <a href="page4.html">
+                        <li class="link" value="4" onclick="activeLink()">4</li></a>
+                    <a href="page5.html">
+                        <li class="link" value="5" onclick="activeLink()">5</li></a>
+                    <a href="page6.html">
+                        <li class="link active" value="6" onclick="activeLink()">6</li></a>
+                    </ul>
+                    <button class="btnn" > next<img src="arrow.png"></button>
+                </div>
+            </div>
+
+            <script>
+            let link = document.getElementsByClassName("link");
+            let currentValue = 1;
+
+            function activeLink(){
+                for(l of link){
+                    l.classList.remove("active");
+                }
+                event.target.classList.add("active");
+                currentValue = event.target.value;
+            }
+
+           
+            </script>
+
+            <footer id="main-footer" class="grid">
+           
+
+                <h4> 
+                  for webdev finals
+                
+              <p>
+                made by Tiru, David, and Garcia of BSIT WMA 3A (+639506082836)
+              </p>
+            
+              <p>Tarlac State University</p></h3>
+              </footer>  
+    </body>
+</html>

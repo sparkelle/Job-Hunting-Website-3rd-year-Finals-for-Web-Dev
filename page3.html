@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magical Jobs </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="elle">
+            <div class="cat">
+                <img src="toplogo.png" style="width:150px;height:150px;">
+                <ul>
+                    
+
+                    <li> <a href="#">Developers</a></li>
+                    <li> <a href="#">FAQ</a></li>
+                    <li> <a href="index.html">Sign out</a></li>
+                </ul>
+                <div class="cat-icons">
+                    <img src="about.png">
+                    <img src="contact.png"> <img src="home.png"> 
+
+                </div>
+            </div>  
+        
+            <div class="negneg">
+                <form class="boxes1">
+                 <h2> SOURCING ASSISTANT</h2>
+                 <h3>part time</h3>
+                 _____________
+                 <h4>15,000</h4>
+                 --- <br>
+                 Responsible for sourcing, screening and initial inteview of Applicants who will be endorsed to the...            <a href="#" class="btn">read more</a></form>
+                <form class="boxes2">
+                    <h2>Building <br>Engineer</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>30,000</h4>
+                    --- <br>
+                    The position is responsible for the over-all supervision of the equipments and
+                    technical facilities...<br>                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes3">
+                    <h2>Customer Service Assistant</h2>
+                    <h3>part time/full time</h3>
+                    _____________
+                    <h4>15,000-30,000</h4>
+                    --- <br>
+                    • Candidate must possess at least a Bachelor's/College Degree
+
+                    • Knowledge of counterfeit detection...                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes4">
+                    <h2>Customer Service Specialist</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>30,000</h4>
+                    --- <br>
+                    2+ years strong CSR experience.
+                    Blended email, 10% phone and chat support - experience is a good to have...                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes5">
+                    <h2> Data Entry <br>Clerk</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>15,000</h4>
+                    --- <br>
+                    
+                    A Data Entry Clerk is responsible for transferring data from paper formats into computer files or database...                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes6">
+                    <h2> OFFICE <br>STAFF</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>15,000</h4>
+                    --- <br>
+                    Candidate must possess at least a bachelor of science in Business
+
+                    Making travel arrangements, such as book...                    <a href="#" class="btn">read more</a>
+                </form>
+            </div>
+
+            <div class="container">
+                <div class="pagination">
+                    <button class="btnp"> <img src="arrow.png">prev</button>
+                    <ul>
+                    <a href="usersonly.html">
+                        <li class="link"  value="1" onclick="activeLink()">1</li></a>
+                    <a href="page2.html">
+                        <li class="link" value="2" onclick="activeLink()">2</li></a>
+                    <a href="page3.html">
+                        <li class="link active" value="3" onclick="activeLink()">3</li></a>
+                    <a href="page4.html">
+                        <li class="link" value="4" onclick="activeLink()">4</li></a>
+                    <a href="page5.html">
+                        <li class="link" value="5" onclick="activeLink()">5</li></a>
+                    <a href="page6.html">
+                        <li class="link" value="6" onclick="activeLink()">6</li></a>
+                    </ul>
+                    <button class="btnn" > next<img src="arrow.png"></button>
+                </div>
+            </div>
+
+            <script>
+            let link = document.getElementsByClassName("link");
+            let currentValue = 1;
+
+            function activeLink(){
+                for(l of link){
+                    l.classList.remove("active");
+                }
+                event.target.classList.add("active");
+                currentValue = event.target.value;
+            }
+
+           
+            </script>
+
+            <footer id="main-footer" class="grid">
+           
+
+                <h4> 
+                  for webdev finals
+                
+              <p>
+                made by Tiru, David, and Garcia of BSIT WMA 3A (+639506082836)
+              </p>
+            
+              <p>Tarlac State University</p></h3>
+              </footer>  
+    </body>
+</html>

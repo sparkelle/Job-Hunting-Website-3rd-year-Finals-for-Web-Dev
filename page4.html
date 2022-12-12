@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magical Jobs </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="elle">
+            <div class="cat">
+                <img src="toplogo.png" style="width:150px;height:150px;">
+                <ul>
+                    
+
+                    <li> <a href="#">Developers</a></li>
+                    <li> <a href="#">FAQ</a></li>
+                    <li> <a href="index.html">Sign out</a></li>
+                </ul>
+                <div class="cat-icons">
+                    <img src="about.png">
+                    <img src="contact.png"> <img src="home.png"> 
+
+                </div>
+            </div>  
+        
+            <div class="negneg">
+                <form class="boxes1">
+                 <h2>Store <br>Supervisor</h2>
+                 <h3>part time</h3>
+                 _____________
+                 <h4>18,000</h4>
+                 --- <br>
+                 The Store Supervisor is responsible for the daily running of stores to achieve its objective to minimize costs...                 
+                  <a href="#" class="btn">read more</a></form>
+                <form class="boxes2">
+                    <h2>Accounting Assistant</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>30,000</h4>
+                    --- <br>
+                    The position is primarily responsible for:
+
+ensuring completeness of checks sent out for clearing, call back...<br>                   
+                     <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes3">
+                    <h2>Operations<br>
+                     Staff</h2>
+                    <h3>part time/full time</h3>
+                    _____________
+                    <h4>15,000-30,000</h4>
+                    --- <br>
+                    Job Highlights
+Compensation package
+Guaranteed bonus & Benefits package
+Retirement package...         <br>           <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes4">
+                    <h2>HR <br> Assistant</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>30,000</h4>
+                    --- <br>
+                    The HR Assistant assists the HR team in carrying out administrative work mainly focused on support...                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes5">
+                    <h2> ADMINISTRATIVE ASSISTANT</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>20,000</h4>
+                    --- <br>
+                    
+                    Core Responsibilities
+
+Prepare contracts and necessary documents related to client’s loan approval.
+Review ...                    <a href="#" class="btn">read more</a>
+                </form>
+                <form class="boxes6">
+                    <h2> Civil Engineer MERALCO</h2>
+                    <h3>full time</h3>
+                    _____________
+                    <h4>25,000</h4>
+                    --- <br>
+                    The Civil Engineer is responsible for the efficient enterprise space planning and management of their assign...                    <a href="#" class="btn">read more</a>
+                </form>
+            </div>
+
+            <div class="container">
+                <div class="pagination">
+                    <button class="btnp"> <img src="arrow.png">prev</button>
+                    <ul>
+                    <a href="usersonly.html">
+                        <li class="link"  value="1" onclick="activeLink()">1</li></a>
+                    <a href="page2.html">
+                        <li class="link" value="2" onclick="activeLink()">2</li></a>
+                    <a href="page3.html">
+                        <li class="link" value="3" onclick="activeLink()">3</li></a>
+                    <a href="page4.html">
+                        <li class="link active" value="4" onclick="activeLink()">4</li></a>
+                    <a href="page5.html">
+                        <li class="link" value="5" onclick="activeLink()">5</li></a>
+                    <a href="page6.html">
+                        <li class="link" value="6" onclick="activeLink()">6</li></a>
+                    </ul>
+                    <button class="btnn" > next<img src="arrow.png"></button>
+                </div>
+            </div>
+
+            <script>
+            let link = document.getElementsByClassName("link");
+            let currentValue = 1;
+
+            function activeLink(){
+                for(l of link){
+                    l.classList.remove("active");
+                }
+                event.target.classList.add("active");
+                currentValue = event.target.value;
+            }
+
+           
+            </script>
+
+            <footer id="main-footer" class="grid">
+           
+
+                <h4> 
+                  for webdev finals
+                
+              <p>
+                made by Tiru, David, and Garcia of BSIT WMA 3A (+639506082836)
+              </p>
+            
+              <p>Tarlac State University</p></h3>
+              </footer>  
+    </body>
+</html>
